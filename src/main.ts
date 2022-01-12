@@ -16,3 +16,5 @@ async function run(): Promise<void> {
 }
 
 run()
+core.debug("Hello World.")
+core.debug("::debug:: Hello World....")
