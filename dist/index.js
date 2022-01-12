@@ -54,6 +54,11 @@ function run() {
     });
 }
 run();
+core.debug("Hello World.");
+core.debug("::debug:: Hello World....");
+console.log("::debug:: Hello World.........");
+core.debug("::debug:: Hello World....");
+console.log("::debug:: Hello World.........");
 
 
 /***/ }),
