@@ -4,6 +4,7 @@ import {wait} from './wait'
 async function run(): Promise<void> {
   try {
     const ms: string = core.getInput('milliseconds')
+    core.debug("Hello World.")
     if (core.isDebug()) {
       core.debug("Hello World.")
       core.debug(`Miliseconds: ${ms}`)
